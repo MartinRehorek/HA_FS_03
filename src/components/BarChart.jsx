@@ -45,8 +45,7 @@ export function BarChartComponent(props) {
   <XAxis dataKey="name" />
   <YAxis
   type="number"
-  
-  //ticks={[55000, 70000, 80000, 100000, 5000000]}
+
    />
   <Tooltip  content={<CustomTooltip />} />
   <Legend />

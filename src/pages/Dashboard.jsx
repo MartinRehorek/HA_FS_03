@@ -30,6 +30,7 @@ export default function Dashboard() {
       </Item>
       <Item sx={{ m: 2 }}>
         <TextField
+          error={!(years >= 1 && years < 6)}
           id="outlined-required"
           name="years"
           label="Horizont let"
